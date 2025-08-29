@@ -1,0 +1,136 @@
+linkedin_market_research:
+  description: >
+    Conduct research on LinkedIn marketing trends, job search strategies, and industry insights specifically for senior AI/ML engineering roles. Analyze successful LinkedIn profiles of senior AI/ML engineers, technical thought leaders, and engineering managers in the target industry. Use the Innovation Tracker to identify latest AI/ML innovations and trends that should be incorporated into content strategy.
+    <User Profession>{user_profession}</User Profession>
+    <Target Industries>{target_industries}</Target Industries>
+    <User Location>{user_location}</User Location>
+    <User Skills>{user_skills}</User Skills>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A comprehensive LinkedIn market research report for senior AI/ML engineering roles that includes:
+    - Analysis of LinkedIn trends for senior AI/ML engineering positions
+    - Successful content strategies for senior technical professionals
+    - Technical thought leadership trends and topics
+    - Latest AI/ML innovations and emerging technologies
+    - Competitor analysis of successful senior AI/ML engineers
+    - Recommendations for senior-level LinkedIn strategy incorporating latest trends
+
+develop_linkedin_strategy:
+  description: >
+    Develop a comprehensive LinkedIn marketing strategy for senior AI/ML engineering roles. The strategy should include technical thought leadership content themes, system architecture showcases, production deployment stories, and profile optimization recommendations for senior engineering positions. Incorporate latest AI/ML innovations and trends identified through innovation tracking.
+    <User Profession>{user_profession}</User Profession>
+    <Target Industries>{target_industries}</Target Industries>
+    <User Skills>{user_skills}</User Skills>
+    <User Experience>{user_experience}</User Experience>
+
+    Current date: {current_date}
+    Refer to the LinkedIn market research report for insights and building the strategy.
+
+  expected_output: >
+    A detailed LinkedIn strategy document for senior AI/ML engineering roles that includes:
+    - Technical thought leadership content themes and topics incorporating latest innovations
+    - System architecture and production deployment showcases
+    - Weekly posting schedule (3-5 posts per week) focused on senior-level content
+    - Networking strategy targeting senior engineering leaders and tech leads
+    - Profile optimization recommendations for senior engineering positions
+    - Innovation tracking and trend incorporation strategy
+    - Key performance indicators (KPIs) to measure success
+    Store the LinkedIn strategy in 'resources/drafts/linkedin_strategy.md'.
+
+create_linkedin_content_calendar:
+  description: >
+    Create a LinkedIn content calendar for the next two weeks that includes posts showcasing senior AI/ML engineering expertise, system architecture decisions, production deployment challenges, and technical thought leadership. Each post should be designed to attract senior engineering hiring managers and tech leads. Incorporate latest AI/ML innovations and trending topics identified through innovation tracking.
+    <User Profession>{user_profession}</User Profession>
+    <Target Industries>{target_industries}</Target Industries>
+    <User Skills>{user_skills}</User Skills>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A LinkedIn content calendar for senior AI/ML engineering roles that includes:
+    - 10-14 LinkedIn posts over two weeks
+    - Mix of content types: technical thought leadership, system architecture insights, production deployment stories, engineering challenges, technical innovations, latest AI/ML trends
+    - Optimal posting times and frequency for senior technical audience
+    - Technical hashtag strategies for each post
+    - Innovation tracking integration for trending topics
+    Store the content calendar in 'resources/drafts/linkedin_content_calendar.md'.
+
+prepare_linkedin_posts:
+  description: >
+    Prepare engaging LinkedIn posts based on the content calendar that showcase senior-level AI/ML engineering expertise. Each post should demonstrate system architecture thinking, production deployment capabilities, technical problem-solving, and thought leadership to attract senior engineering hiring managers and tech leads. Incorporate latest AI/ML innovations and emerging technologies identified through innovation tracking.
+    <User Profession>{user_profession}</User Profession>
+    <Target Industries>{target_industries}</Target Industries>
+    <User Skills>{user_skills}</User Skills>
+    <User Projects>{user_projects}</User Projects>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Engaging LinkedIn posts for senior AI/ML engineering roles that include:
+    - Technical thought leadership and system architecture insights
+    - Production deployment challenges and solutions
+    - Engineering problem-solving and technical innovations
+    - Latest AI/ML trends and emerging technologies
+    - Project showcases demonstrating senior-level capabilities
+    - Technical networking and community engagement posts
+    - Optimized technical hashtags and mentions
+    Each post should be ready for publishing. Save the posts in 'resources/drafts/linkedin_posts/' folder in markdown format.
+
+research_topic_analysis:
+  description: >
+    Conduct research on trending topics, industry developments, and research opportunities specifically in senior AI/ML engineering. Identify topics that would demonstrate senior-level technical expertise, system architecture knowledge, and production deployment capabilities for publication. Use the Innovation Tracker to identify latest innovations and emerging technologies that should be covered in research content.
+    <User Profession>{user_profession}</User Profession>
+    <Research Interests>{research_interests}</Research Interests>
+    <User Skills>{user_skills}</User Skills>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A research topic analysis for senior AI/ML engineering that includes:
+    - Trending technical topics in AI/ML engineering
+    - Latest innovations and emerging technologies
+    - System architecture and production deployment research gaps
+    - Potential technical publication platforms (engineering blogs, tech publications)
+    - Suggested technical blog topics and outlines incorporating latest trends
+    - Competitive analysis of existing senior-level technical content
+    - Innovation tracking insights for content planning
+
+draft_research_blogs:
+  description: >
+    Draft research-based blog posts that demonstrate senior AI/ML engineering expertise, system architecture insights, and production deployment strategies. Each blog should be well-researched, technically accurate, and suitable for publication on technical platforms or engineering blogs. Incorporate latest AI/ML innovations and emerging technologies identified through innovation tracking.
+    <User Profession>{user_profession}</User Profession>
+    <Research Interests>{research_interests}</Research Interests>
+    <User Skills>{user_skills}</User Skills>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Research blog drafts for senior AI/ML engineering that include:
+    - Well-researched technical content with proper citations
+    - System architecture and production deployment insights
+    - Technical thought leadership and engineering best practices
+    - Latest AI/ML innovations and emerging technologies
+    - Industry analysis and technical trends
+    - Innovation tracking integration for current relevance
+    - Ready for publication on technical platforms
+    Each draft should be saved in 'resources/drafts/research_blogs/' folder in markdown format.
+
+optimize_professional_content:
+  description: >
+    Optimize LinkedIn posts and research blogs for search engines and technical platforms. This includes technical keyword optimization, senior-level hashtags, and platform-specific optimization for maximum visibility among senior engineering hiring managers, tech leads, and engineering directors. Ensure content incorporates latest trends and innovations for maximum relevance.
+    <User Profession>{user_profession}</User Profession>
+    <Target Industries>{target_industries}</Target Industries>
+    <User Skills>{user_skills}</User Skills>
+
+    Current date: {current_date}
+
+  expected_output: >
+    Optimized professional content for senior AI/ML engineering roles that includes:
+    - SEO-optimized technical titles and headings
+    - Senior-level technical hashtags and keywords
+    - Platform-specific optimizations for technical audiences
+    - Meta descriptions for technical blogs
+    - Latest trend and innovation integration
+    - Ready for publication and maximum visibility among senior engineering decision-makers
